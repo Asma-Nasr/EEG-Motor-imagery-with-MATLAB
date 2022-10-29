@@ -1,0 +1,25 @@
+%import data as a matrix of signal contains all 19 ch
+%
+data=load('IL.csv');
+%data=load('LFWD2.csv');
+%data=load('LBKI.csv');
+%data=table2array(readtable('LFTBKWRD.csv'));
+FP1=data(1:71680,1);
+FP2=data(1:71680,2);
+F3=data(1:71680,3);
+F4=data(1:71680,4);
+C3=data(1:71680,5);
+C4=data(1:71680,6);
+P3=data(1:71680,7);
+P4=data(1:71680,8);
+O1=data(1:71680,9);
+O2=data(1:71680,10);
+F7=data(1:71680,11);
+F8=data(1:71680,12);
+T3=data(1:71680,13);
+T4=data(1:71680,14);
+T5=data(1:71680,15);
+T6=data(1:71680,16);
+FZ=data(1:71680,17);
+CZ=data(1:71680,18);
+PZ=data(1:71680,19);
